@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="page3">
+            <connections>
+                <outlet property="ani1" destination="82h-Y2-OKQ" id="y0b-oD-mCk"/>
+                <outlet property="ani2" destination="Gl5-4t-a8B" id="iwq-4i-NFs"/>
+                <outlet property="ani3" destination="nhw-NG-NGH" id="emv-Y2-Zav"/>
+                <outlet property="earthImage" destination="k17-fJ-WXs" id="7dF-bE-ppM"/>
+                <outlet property="headerImage" destination="nAw-RT-0yD" id="ih0-qC-zYy"/>
+                <outlet property="playButton" destination="qeU-TW-xO4" id="Bd5-Uc-ulS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page3-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="y3J-6H-0qb">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page4-5.png" translatesAutoresizingMaskIntoConstraints="NO" id="k17-fJ-WXs">
+                    <rect key="frame" x="263" y="180" width="499" height="500"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page3-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nAw-RT-0yD">
+                    <rect key="frame" x="129" y="31" width="767" height="64"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page3-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="HAJ-6m-2Ye">
+                    <rect key="frame" x="338" y="138" width="372" height="97"/>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeU-TW-xO4">
+                    <rect key="frame" x="929" y="354" width="61" height="60"/>
+                    <state key="normal" image="page3-6.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="gotoNext:" destination="-1" eventType="touchUpInside" id="j59-er-jZf"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page4-3.png" translatesAutoresizingMaskIntoConstraints="NO" id="nhw-NG-NGH">
+                    <rect key="frame" x="54" y="228" width="216" height="200"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" placeholderIntrinsicWidth="396" placeholderIntrinsicHeight="176" image="page4-6.png" translatesAutoresizingMaskIntoConstraints="NO" id="82h-Y2-OKQ">
+                    <rect key="frame" x="552" y="173" width="396" height="176"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page4-4.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gl5-4t-a8B">
+                    <rect key="frame" x="466" y="435" width="458" height="156"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="page3-1.jpg" width="1024" height="768"/>
+        <image name="page3-2.png" width="767" height="64"/>
+        <image name="page3-3.png" width="372" height="97"/>
+        <image name="page3-6.png" width="61" height="60"/>
+        <image name="page4-3.png" width="216" height="200"/>
+        <image name="page4-4.png" width="458" height="156"/>
+        <image name="page4-5.png" width="499" height="497"/>
+        <image name="page4-6.png" width="396" height="176"/>
+    </resources>
+</document>
